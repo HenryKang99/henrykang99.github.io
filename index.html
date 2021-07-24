@@ -27,22 +27,14 @@
           hook.afterEach((
             function(html, next) {
               var t = document.createElement("div");
-              var relativeExp = RegExp(location.href.split("#")[0] + location.hash.split("/")[1] +"\/_img\/", "i");
-              var absoluteExp = /file:\/\/\/D:\/OneDrive\/_mine\/docsify\/_img\//i;
               var prefix = "https://cdn.jsdelivr.net/gh/HenryKang99/HenryKang99.github.io@master/_img/";
-                t.innerHTML = html;
-                const imgs = [];
-                imgs.push(...t.getElementsByTagName("img"));
-                for (var i = 0; i < imgs.length; i++) {
-                  //第一类给相对路径添加前缀
-                  if(relativeExp.test(imgs[i].src)){
-                    imgs[i].src = imgs[i].src.replace(relativeExp, prefix) 
-                  }else if(absoluteExp.test(imgs[i].src)){
-                    //第二类将绝对路径替换
-                    imgs[i].src = imgs[i].src.replace(absoluteExp, prefix)     
-                  }
-                }
-                next(t.innerHTML)
+              t.innerHTML = html;
+              var imgs = [];
+              imgs.push(...t.getElementsByTagName("img"));
+              for (var i = 0; i < imgs.length; i++) {                
+                imgs[i].src = imgs[i].src.replace(/.*\/_img\//i, prefix)
+              }                
+              next(t.innerHTML)
             }
           ))
         }
@@ -55,7 +47,7 @@
   	  auto2top: true,
 
   	  subMaxLevel: 0,		  // sidebar 渲染md标题层级 old=3
-  	  sidebarDisplayLevel: 1, // sidebar默认展开层级
+  	  sidebarDisplayLevel: 2, // sidebar默认展开层级
   	  search: 'auto',
 
   	  alias: {

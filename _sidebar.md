@@ -6,12 +6,12 @@
   * **Java基础**
     * [JavaSE知识回顾](/Java/JavaBasic/JavaSE知识回顾)
     * [正则表达式](/Java/JavaBasic/正则表达式)
-    * [JVM运行时内存结构](/Java/JavaBasic/JVM运行时内存结构)
+    * [JVM运行时数据区域](/Java/JavaBasic/JVM运行时数据区域)
     * [JVM内存模型与锁优化](/Java/JavaBasic/JVM内存模型与锁优化)
     * [JVM类加载机制](/Java/JavaBasic/JVM类加载机制)
     * [JVM方法调用](/Java/JavaBasic/JVM方法调用)
-    * [对象的创建与内存结构](/Java/JavaBasic/对象的创建与内存结构)
-    * [垃圾收集器](/Java/JavaBasic/垃圾收集器)
+    * [JVM对象的创建与内存结构](/Java/JavaBasic/JVM对象的创建与内存结构)
+    * [JVM垃圾收集器](/Java/JavaBasic/JVM垃圾收集器)
   * **FrontEnd**
     * [HTML与CSS](/Java/FrontEnd/HTML与CSS)
     * [JavaScript](/Java/FrontEnd/JavaScript)
@@ -30,6 +30,7 @@
     * [SpringBoot](/Java/BackEnd/SpringBoot)
     * [Docker](/Java/BackEnd/Docker)
     * [Linux与Nginx](/Java/BackEnd/Linux与Nginx)
+    * [Hadoop入门与环境搭建](/Java/BackEnd/Hadoop入门与环境搭建)
 * **Database**
   * [关系数据库设计与范式](/Database/关系数据库设计与范式)
   * [MySQL基础语法](/Database/MySQL基础语法)
@@ -38,11 +39,6 @@
   * [MySQL事务与并发控制和锁](/Database/MySQL事务与并发控制和锁)
   * [MySQL日志](/Database/MySQL日志)
   * [Redis入门](/Database/Redis入门)
-* **BigData**
-  * [Hadoop入门与环境搭建](/BigData/Hadoop入门与环境搭建)
-  * [Hadoop-HDFS](/BigData/Hadoop_HDFS)
-  * [Hadoop-MapReduce](/BigData/Hadoop_MapReduce)
-  * [Hadoop-YARN](/BigData/Hadoop_YARN)
 * **Networks**
   * [计算机网络小结](/Networks/计算机网络小结)
 * **OperatingSystem**
@@ -57,5 +53,4 @@
 * **Others**
   * [Git学习笔记](/Others/Git学习笔记)
   * [使用Hexo搭建博客并部署到GiteePages](/Others/使用Hexo搭建博客并部署到GiteePages)
-  * [投资与理财](/Others/投资与理财.md)
 

@@ -9,10 +9,11 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Others/投资与理财.md",
+            "file": "BigData/Hadoop入门与环境搭建.md",
             "mode": "source"
           }
-        }
+        },
+        "group": "75fd6b86f60ffaf7"
       },
       {
         "id": "6070e1025a366023",
@@ -20,10 +21,11 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Others/投资与理财.md",
+            "file": "BigData/Hadoop入门与环境搭建.md",
             "mode": "preview"
           }
-        }
+        },
+        "group": "75fd6b86f60ffaf7"
       }
     ],
     "direction": "vertical"
@@ -63,7 +65,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 349
+    "width": 349,
+    "collapsed": true
   },
   "right": {
     "id": "3050959cb56a77f4",
@@ -79,7 +82,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Others/投资与理财.md",
+                "file": "BigData/Hadoop入门与环境搭建.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -96,7 +99,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Others/投资与理财.md"
+                "file": "BigData/Hadoop入门与环境搭建.md"
               }
             }
           }
@@ -105,20 +108,19 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "active": "3d6c129f13b7dd5e",
   "lastOpenFiles": [
+    "BigData/Hadoop入门与环境搭建.md",
+    "Java/JavaBasic/JavaSE知识回顾.md",
     "Others/投资与理财.md",
     "Others/Git学习笔记.md",
     "Others/使用Hexo搭建博客并部署到GiteePages.md",
-    "BigData/Hadoop入门与环境搭建.md",
     "_sidebar.md",
     "_img/马斯洛需求层次理论.png",
     "_img/0CUlLFDFs64k.png",
     "未命名.md",
-    "Java/JavaBasic/JavaSE知识回顾.md",
     "Java/JavaBasic/对象的创建与内存结构.md"
   ]
 }
