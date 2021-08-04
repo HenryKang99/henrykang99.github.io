@@ -167,7 +167,7 @@ $ git reflog
 ### 创建远程仓库
 
 - 首先需要创建SSH密钥对
-  `rsa ssh-keygen -t -C "email@example.com"` + 仨回车.
+  ` ssh-keygen -t rsa -C "email@example.com"` + 仨回车.
   会生成私钥`id_rsa`与公钥`id_rsa.pub`存放在当前用户下的`.ssh`目录中.
 
 - 在GitHub上添加自己的公钥`id_rsq.pub`.
